@@ -1,0 +1,7 @@
+export { default as Navbar } from "./Navbar/navbar"
+export { default as Body } from "./Body/Body"
+export { default as About } from "./About/About"
+export { default as Techno } from "./App/Use"
+export { default as Experience } from "./xpe/xpe"
+export { default as Project } from "./Project/Project"
+export { default as Contact } from "./contact/contact"
