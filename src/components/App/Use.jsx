@@ -6,7 +6,8 @@ import { FaNodeJs } from 'react-icons/fa'
 import { DiMysql } from 'react-icons/di'
 import { RiTailwindCssLine } from 'react-icons/ri'
 import { motion } from 'framer-motion'
-import { MdOpacity } from 'react-icons/md'
+import { DiPostgresql } from 'react-icons/di'
+import { SiHasura } from 'react-icons/si'
 
 const iconMove = (duration) => ({
     initial: { y:-10},
@@ -38,7 +39,7 @@ const Use = () => {
             className='flex flex-wrap items-center justify-center gap-4'>
                 <motion.div 
                 variants={iconMove(2.5)}
-                initial="initial"S
+                initial="initial"
                 animate="animate" 
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <RiReactjsLine className='text-7xl'/>
@@ -77,6 +78,20 @@ const Use = () => {
                 animate="animate" 
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <RiTailwindCssLine className='text-7xl '/>
+                </motion.div>
+                <motion.div 
+                variants={iconMove(6)}
+                initial="initial"
+                animate="animate" 
+                className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <DiPostgresql className='text-7xl '/>
+                </motion.div>
+                <motion.div 
+                variants={iconMove(7)}
+                initial="initial"
+                animate="animate" 
+                className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <SiHasura className='text-7xl '/>
                 </motion.div>
             </motion.div>
     </div>

@@ -1,76 +1,68 @@
-import project1 from "../assets/react.svg";
-import project2 from "../assets/react.svg";
-import project3 from "../assets/react.svg";
-import project4 from "../assets/react.svg";
+import project1 from "../assets/Kang Parkir.png";
+import project2 from "../assets/Squad Space.png";
+import project3 from "../assets/Eclectic Milkyway Shop.png";
+import project4 from "../assets/Eclectic Milkyway Shop.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = 
+`Saya merupakan lulusan Universitas Kalbis dengan jurusan Sistem Informasi tahun 2024, 
+dengan minat dan keterampilan dalam pengembangan website, khususnya sebagai Front-End Developer. 
+Memiliki pengalaman dalam pengembangan web menggunakan HTML, CSS, JavaScript, dan ReactJS. 
+Berfokus pada desain antarmuka pengguna (UI) dan pengalaman pengguna (UX) untuk menciptakan antarmuka web yang efektif dan menarik.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `
+Saya merupakan seorang fresh graduate Universitas Kalbis dengan jurusan Sistem Informasi. 
+Selama masa studi, saya mengembangkan ketertarikan pada pengembangan web, terutama di bidang front-end development. Saya memiliki keahlian dalam HTML, CSS, JavaScript, dan React. 
+Fokus saya adalah membuat antarmuka web yang ramah pengguna dan responsif.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "February-June 2023",
+    role: "Studi Independen - Front-End Engineer Career with ReactJS",
+    company: "Alterra Academy",
+    description: `Mengikuti kursus selama 6 bulan mengenai pengembangan front-end menggunakan React untuk membangun aplikasi web dinamis dan responsif.
+Membuat beberapa proyek kecil sebagai latihan, termasuk Kangparkir, dan Squad Space.
+Mengintegrasikan komponen dan mengelola state menggunakan React Hooks
+Mempelajari mengenai pengelolaan rute dengan React Router`,
+    technologies: ["Javascript", "React.js", "Next.js", "PostgreSQL", "Hasura"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Kang Parkir",
     image: project1,
+    link: "https://kang-parkir.vercel.app/",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Dibuat menggunakan ReactJS dan Tailwind sebagai CSSproyek ini dibuat dengan spesifikasi :User dapat booking tempat parkir sebelum datang ke tempat yang ingin dituju. Mencari tempat parkir terdekat sesuai dengan titik destinasi. Dapat memberikan informasi mengenai dimana mobil diparkir.",
+    technologies: ["Javasript", "Tailwind", "ReactJs", "Hasura", "PostgreSQL"],
   },
   {
-    title: "Task Management App",
+    title: "Squad Space",
     image: project2,
+    link: "https://qe-testing.vercel.app/login",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Dibuat menggunakan ReactJS dan Tailwind sebagai CSS. SquadSpace merupakan proyek forum grup diskusi yang lahir sebagai respons terhadap meningkatnya kebutuhan akan ide, pemikiran, dan pengetahuan. Mengembangkan halaman Manage Thread dan View Thread, yang memungkinkan admin untuk mengelola, dan melihat thread diskusi yang ada.",
+    technologies: ["ReactJS", "Tailwind"],
+  },
+  {
+    title: "Eclectic Milkyway Shop",
+    image: project3,
+    link: "https://e-commerce1-xi.vercel.app/",
+    description:
+      "Eclectic Milkyway Shop merupakan website e-commerce yang dibangun untuk menyelesaikan masalah yang ada pada toko.",
+    technologies: ["JavaScript", "Tailwind", "ReactJS", "Hasura", "PostgreSQL", "Firebase"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Website portofolio pribadi yang menampilkan proyek, pengalaman, keterampilan, dan informasi kontak",
+    technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "Palmerah, Jakarta Barat",
   phoneNo: "+62 856 1048 099 ",
   email: "prasetyo.davidezra@gmail.com",
 };

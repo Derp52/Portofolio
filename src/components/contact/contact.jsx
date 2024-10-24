@@ -9,26 +9,26 @@ const contact = () => {
       whileInView={{opacity: 1, y:0}}
       initial={{opacity:0, y: -100}}
       transition={{duration:1.5}}
-      h2 className='my-10 text-center text-4xl'>
+      className='my-10 text-center text-4xl'>
         Get In Touch
       </motion.h2>
       <div
       className='text-center tracking-tighter'>
-        <motion.p
+         <motion.p
         whileInView={{opacity: 1, x: 0}}
         initial={{opacity:0, x: -100}}
         transition={{duration:1}}
         className='my-4'>
-        {CONTACT.address}
+        {CONTACT.phoneNo}
         </motion.p>
         <motion.p
         whileInView={{opacity: 1, x: 0}}
         initial={{opacity:0, x: 100}}
         transition={{duration:1}}
         className='my-4'>
-        {CONTACT.phoneNo}
+        {CONTACT.address}
         </motion.p>
-        <a href='#' className='border-b'>
+        <a href="mailto:prasetyo.davidezra@gmail.com" className='border-b'>
         {CONTACT.email}
         </a>
       </div>
